@@ -1,14 +1,14 @@
 'use strict';
 
 const displayFoundHandler = () => {
-  debugger;
+    debugger;
 
-  console.log('-- action: display found --');
-  console.log('found', typeof found, '\n', found);
+    console.log('-- action: display found --');
+    console.log('found', typeof found, '\n', found);
 
-  if (_) {
-    alert('no found value');
-  } else {
-    alert('found: \n' + found);
-  }
+    if (!found) {
+        alert('no found value');
+    } else {
+        alert('found: \n' + found);
+    }
 };
