@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf8'>
+  <title>example</title>
+
+  <!-- testing dependencies -->
+  <script src='../lib/describe-it.js'></script>
+  <script src='../lib/chai.js'></script>
+
+
+  <!-- load the shared data -->
+  <script src='./scripts/script-variables.js'></script>
+
+  <!-- load the user interactions -->
+  <script src='./scripts/actions/push-to-array.js'></script>
+  <script src='./scripts/actions/display-values.js'></script>
+
+
+</head>
+
+<body>
+
+  <main>
+    <button onclick="pushToArrayHandler()">add a string</button> <br>
+    <button onclick="displayValuesHandler()">display all strings</button>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf8'>
+  <title>find saved values</title>
+
+  <!-- Everything in this file works! -->
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- testing dependencies -->
+  <script src='./lib/describe-it.js'></script>
+  <script src='./lib/chai.js'></script>
+
+
+  <!-- load the shared data -->
+  <script src='./scripts/script-variables.js'></script>
+
+  <!-- load the user interactions -->
+  <script src='./scripts/actions/push-to-array.js'></script>
+  <script src='./scripts/actions/find.js'></script>
+  <script src='./scripts/actions/display-found.js'></script>
+
+
+</head>
+
+<body>
+
+  <main>
+    <button onclick="pushToArrayHandler()">add a string</button> <br>
+    <button onclick="findValueHandler()">find a value</button> <br>
+    <button onclick="displayFoundHandler()">display found</button> <br>
+  </main>
+
+</body>
+
+</html>
